@@ -1,0 +1,1466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD046F651ECCFBDB00B0B343 /* AppQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD046F641ECCFBDB00B0B343 /* AppQueue.swift */; };
+		AD046F661ECCFBDB00B0B343 /* AppQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD046F641ECCFBDB00B0B343 /* AppQueue.swift */; };
+		AD046F681ECCFCA700B0B343 /* AppLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD046F671ECCFCA700B0B343 /* AppLinkedList.swift */; };
+		AD046F691ECCFCA700B0B343 /* AppLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD046F671ECCFCA700B0B343 /* AppLinkedList.swift */; };
+		AD046F6B1ECCFFCD00B0B343 /* Pmessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD046F6A1ECCFFCD00B0B343 /* Pmessage.swift */; };
+		AD046F6C1ECCFFCD00B0B343 /* Pmessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD046F6A1ECCFFCD00B0B343 /* Pmessage.swift */; };
+		AD046F6E1ECF9CB600B0B343 /* PchatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD046F6D1ECF9CB600B0B343 /* PchatBubble.swift */; };
+		AD046F6F1ECF9CB600B0B343 /* PchatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD046F6D1ECF9CB600B0B343 /* PchatBubble.swift */; };
+		AD069CB51EB2491A00E8D39D /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD069CB41EB2491A00E8D39D /* AppImage.swift */; };
+		AD069CB61EB2491A00E8D39D /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD069CB41EB2491A00E8D39D /* AppImage.swift */; };
+		AD069CB81EB288CB00E8D39D /* Pimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD069CB71EB288CB00E8D39D /* Pimage.swift */; };
+		AD069CB91EB288CB00E8D39D /* Pimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD069CB71EB288CB00E8D39D /* Pimage.swift */; };
+		AD069CBB1EB3320800E8D39D /* PmsgHttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD069CBA1EB3320800E8D39D /* PmsgHttpServer.swift */; };
+		AD069CBC1EB3320800E8D39D /* PmsgHttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD069CBA1EB3320800E8D39D /* PmsgHttpServer.swift */; };
+		AD069CC11EB4116300E8D39D /* AppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD069CC01EB4116300E8D39D /* AppEvent.swift */; };
+		AD069CC21EB4116300E8D39D /* AppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD069CC01EB4116300E8D39D /* AppEvent.swift */; };
+		AD0B6FD31E88CA2C00600930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B6FD21E88CA2C00600930 /* AppDelegate.swift */; };
+		AD0B6FD51E88CA2C00600930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B6FD41E88CA2C00600930 /* ViewController.swift */; };
+		AD0B6FD81E88CA2C00600930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B6FD61E88CA2C00600930 /* Main.storyboard */; };
+		AD0B6FDD1E88CA2C00600930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0B6FDC1E88CA2C00600930 /* Assets.xcassets */; };
+		AD0B6FE01E88CA2C00600930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B6FDE1E88CA2C00600930 /* LaunchScreen.storyboard */; };
+		AD0B6FEB1E88CA2C00600930 /* AlcazarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B6FEA1E88CA2C00600930 /* AlcazarTests.swift */; };
+		AD0B6FF61E88CA2D00600930 /* AlcazarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B6FF51E88CA2D00600930 /* AlcazarUITests.swift */; };
+		AD0B700B1E88D1FC00600930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B700A1E88D1FC00600930 /* AppDelegate.swift */; };
+		AD0B700D1E88D1FC00600930 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B700C1E88D1FC00600930 /* MainViewController.swift */; };
+		AD0B70121E88D1FC00600930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0B70111E88D1FC00600930 /* Assets.xcassets */; };
+		AD0B70151E88D1FC00600930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B70131E88D1FC00600930 /* Main.storyboard */; };
+		AD0B70201E88D1FC00600930 /* Alcazar_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B701F1E88D1FC00600930 /* Alcazar_macOSTests.swift */; };
+		AD0B702B1E88D1FD00600930 /* Alcazar_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B702A1E88D1FD00600930 /* Alcazar_macOSUITests.swift */; };
+		AD1161FC1EC54F0F00E6A000 /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1161FB1EC54F0F00E6A000 /* ChatBubbleView.swift */; };
+		AD1CC6891EAE772A002C64AF /* PmsgUserNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC6881EAE772A002C64AF /* PmsgUserNew.swift */; };
+		AD1CC68A1EAE772A002C64AF /* PmsgUserNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC6881EAE772A002C64AF /* PmsgUserNew.swift */; };
+		AD1CC68C1EAE7751002C64AF /* PmsgUserExitRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC68B1EAE7751002C64AF /* PmsgUserExitRoom.swift */; };
+		AD1CC68D1EAE7751002C64AF /* PmsgUserExitRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC68B1EAE7751002C64AF /* PmsgUserExitRoom.swift */; };
+		AD1CC68F1EAEB116002C64AF /* PmsgUserLeaving.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC68E1EAEB116002C64AF /* PmsgUserLeaving.swift */; };
+		AD1CC6901EAEB116002C64AF /* PmsgUserLeaving.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1CC68E1EAEB116002C64AF /* PmsgUserLeaving.swift */; };
+		AD1FCFAB1EB005D900177DA7 /* PmsgServerUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FCFAA1EB005D900177DA7 /* PmsgServerUserList.swift */; };
+		AD1FCFAC1EB005D900177DA7 /* PmsgServerUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FCFAA1EB005D900177DA7 /* PmsgServerUserList.swift */; };
+		AD203DE81EB59213008945D6 /* NSWindowExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD203DE61EB59213008945D6 /* NSWindowExceptions.swift */; };
+		AD22BDA51EBDC25E00DD8ABD /* PmsgUserRename.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22BDA41EBDC25E00DD8ABD /* PmsgUserRename.swift */; };
+		AD22BDA61EBDC25E00DD8ABD /* PmsgUserRename.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22BDA41EBDC25E00DD8ABD /* PmsgUserRename.swift */; };
+		AD23F9B91EC08ADE00B767A1 /* PmsgServerVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9B81EC08ADE00B767A1 /* PmsgServerVersion.swift */; };
+		AD23F9BA1EC08ADE00B767A1 /* PmsgServerVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9B81EC08ADE00B767A1 /* PmsgServerVersion.swift */; };
+		AD23F9BC1EC08AF600B767A1 /* PmsgServerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9BB1EC08AF600B767A1 /* PmsgServerInfo.swift */; };
+		AD23F9BD1EC08AF600B767A1 /* PmsgServerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9BB1EC08AF600B767A1 /* PmsgServerInfo.swift */; };
+		AD23F9BF1EC08B1100B767A1 /* PmsgTerminate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9BE1EC08B1100B767A1 /* PmsgTerminate.swift */; };
+		AD23F9C01EC08B1100B767A1 /* PmsgTerminate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9BE1EC08B1100B767A1 /* PmsgTerminate.swift */; };
+		AD23F9C21EC08B2F00B767A1 /* PmsgUserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9C11EC08B2F00B767A1 /* PmsgUserStatus.swift */; };
+		AD23F9C31EC08B2F00B767A1 /* PmsgUserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9C11EC08B2F00B767A1 /* PmsgUserStatus.swift */; };
+		AD23F9C51EC08B5400B767A1 /* PmsgUserLoggedOnAndMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9C41EC08B5400B767A1 /* PmsgUserLoggedOnAndMax.swift */; };
+		AD23F9C61EC08B5400B767A1 /* PmsgUserLoggedOnAndMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9C41EC08B5400B767A1 /* PmsgUserLoggedOnAndMax.swift */; };
+		AD23F9C81EC08B6C00B767A1 /* PmsgAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9C71EC08B6C00B767A1 /* PmsgAsset.swift */; };
+		AD23F9C91EC08B6C00B767A1 /* PmsgAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9C71EC08B6C00B767A1 /* PmsgAsset.swift */; };
+		AD23F9CB1EC08B8100B767A1 /* PmsgAssetQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9CA1EC08B8100B767A1 /* PmsgAssetQuery.swift */; };
+		AD23F9CC1EC08B8100B767A1 /* PmsgAssetQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9CA1EC08B8100B767A1 /* PmsgAssetQuery.swift */; };
+		AD23F9CE1EC08B9200B767A1 /* PmsgFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9CD1EC08B9200B767A1 /* PmsgFile.swift */; };
+		AD23F9CF1EC08B9200B767A1 /* PmsgFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9CD1EC08B9200B767A1 /* PmsgFile.swift */; };
+		AD23F9D11EC08BBD00B767A1 /* PmsgUserColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9D01EC08BBD00B767A1 /* PmsgUserColor.swift */; };
+		AD23F9D21EC08BBD00B767A1 /* PmsgUserColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9D01EC08BBD00B767A1 /* PmsgUserColor.swift */; };
+		AD23F9D41EC08BCF00B767A1 /* PmsgUserFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9D31EC08BCF00B767A1 /* PmsgUserFace.swift */; };
+		AD23F9D51EC08BCF00B767A1 /* PmsgUserFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9D31EC08BCF00B767A1 /* PmsgUserFace.swift */; };
+		AD23F9D71EC08BE600B767A1 /* PmsgUserDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9D61EC08BE600B767A1 /* PmsgUserDescription.swift */; };
+		AD23F9D81EC08BE600B767A1 /* PmsgUserDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9D61EC08BE600B767A1 /* PmsgUserDescription.swift */; };
+		AD23F9DA1EC08BFA00B767A1 /* PmsgUserProp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9D91EC08BFA00B767A1 /* PmsgUserProp.swift */; };
+		AD23F9DB1EC08BFA00B767A1 /* PmsgUserProp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9D91EC08BFA00B767A1 /* PmsgUserProp.swift */; };
+		AD23F9DD1EC08C8000B767A1 /* PmsgRoomDescend.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9DC1EC08C8000B767A1 /* PmsgRoomDescend.swift */; };
+		AD23F9DE1EC08C8000B767A1 /* PmsgRoomDescend.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9DC1EC08C8000B767A1 /* PmsgRoomDescend.swift */; };
+		AD23F9E01EC08CBA00B767A1 /* PmsgPropMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9DF1EC08CBA00B767A1 /* PmsgPropMove.swift */; };
+		AD23F9E11EC08CBA00B767A1 /* PmsgPropMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9DF1EC08CBA00B767A1 /* PmsgPropMove.swift */; };
+		AD23F9E31EC08CCE00B767A1 /* PmsgPropNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9E21EC08CCE00B767A1 /* PmsgPropNew.swift */; };
+		AD23F9E41EC08CCE00B767A1 /* PmsgPropNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9E21EC08CCE00B767A1 /* PmsgPropNew.swift */; };
+		AD23F9E61EC08CE200B767A1 /* PmsgPropDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9E51EC08CE200B767A1 /* PmsgPropDelete.swift */; };
+		AD23F9E71EC08CE200B767A1 /* PmsgPropDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9E51EC08CE200B767A1 /* PmsgPropDelete.swift */; };
+		AD23F9E91EC08D1E00B767A1 /* PmsgDoorLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9E81EC08D1E00B767A1 /* PmsgDoorLock.swift */; };
+		AD23F9EA1EC08D1E00B767A1 /* PmsgDoorLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9E81EC08D1E00B767A1 /* PmsgDoorLock.swift */; };
+		AD23F9EC1EC08D2E00B767A1 /* PmsgDoorUnlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9EB1EC08D2E00B767A1 /* PmsgDoorUnlock.swift */; };
+		AD23F9ED1EC08D2E00B767A1 /* PmsgDoorUnlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9EB1EC08D2E00B767A1 /* PmsgDoorUnlock.swift */; };
+		AD23F9EF1EC08D4B00B767A1 /* PmsgPictMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9EE1EC08D4B00B767A1 /* PmsgPictMove.swift */; };
+		AD23F9F01EC08D4B00B767A1 /* PmsgPictMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9EE1EC08D4B00B767A1 /* PmsgPictMove.swift */; };
+		AD23F9F21EC08D6000B767A1 /* PmsgSpotMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9F11EC08D6000B767A1 /* PmsgSpotMove.swift */; };
+		AD23F9F31EC08D6000B767A1 /* PmsgSpotMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9F11EC08D6000B767A1 /* PmsgSpotMove.swift */; };
+		AD23F9F51EC08D7100B767A1 /* PmsgSpotState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9F41EC08D7100B767A1 /* PmsgSpotState.swift */; };
+		AD23F9F61EC08D7100B767A1 /* PmsgSpotState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9F41EC08D7100B767A1 /* PmsgSpotState.swift */; };
+		AD23F9F81EC08D8E00B767A1 /* PmsgDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9F71EC08D8E00B767A1 /* PmsgDraw.swift */; };
+		AD23F9F91EC08D8E00B767A1 /* PmsgDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9F71EC08D8E00B767A1 /* PmsgDraw.swift */; };
+		AD23F9FB1EC08D9D00B767A1 /* PmsgNavError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9FA1EC08D9D00B767A1 /* PmsgNavError.swift */; };
+		AD23F9FC1EC08D9D00B767A1 /* PmsgNavError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9FA1EC08D9D00B767A1 /* PmsgNavError.swift */; };
+		AD23F9FE1EC08DBB00B767A1 /* PmsgAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9FD1EC08DBB00B767A1 /* PmsgAuthenticate.swift */; };
+		AD23F9FF1EC08DBB00B767A1 /* PmsgAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23F9FD1EC08DBB00B767A1 /* PmsgAuthenticate.swift */; };
+		AD23FA011EC08DDF00B767A1 /* PmsgBlowthru.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23FA001EC08DDF00B767A1 /* PmsgBlowthru.swift */; };
+		AD23FA021EC08DDF00B767A1 /* PmsgBlowthru.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23FA001EC08DDF00B767A1 /* PmsgBlowthru.swift */; };
+		AD24D3971EC058710002DA5E /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD24D3961EC058710002DA5E /* ArrayExtensions.swift */; };
+		AD24D3981EC058710002DA5E /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD24D3961EC058710002DA5E /* ArrayExtensions.swift */; };
+		AD254A4D1E9D1FC800C5CBD7 /* AppTcpSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD254A4C1E9D1FC800C5CBD7 /* AppTcpSocket.swift */; };
+		AD254A4E1E9D1FD500C5CBD7 /* AppTcpSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD254A4C1E9D1FC800C5CBD7 /* AppTcpSocket.swift */; };
+		AD2DF2F81EB69F9000A3A32C /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2DF2F61EB69F9000A3A32C /* UIImageExtensions.swift */; };
+		AD2DF2FB1EB6FACF00A3A32C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2DF2F91EB6FACF00A3A32C /* MainView.swift */; };
+		AD3ED5D91EA2938200FB7DDA /* PmsgTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3ED5D81EA2938200FB7DDA /* PmsgTalk.swift */; };
+		AD3ED5DA1EA2BAC200FB7DDA /* PmsgTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3ED5D81EA2938200FB7DDA /* PmsgTalk.swift */; };
+		AD3ED5DC1EA2F94500FB7DDA /* PmsgGotoRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3ED5DB1EA2F94500FB7DDA /* PmsgGotoRoom.swift */; };
+		AD3ED5DE1EA3F31200FB7DDA /* PmsgServerRoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3ED5DD1EA3F31200FB7DDA /* PmsgServerRoomList.swift */; };
+		AD3ED5DF1EA3F32100FB7DDA /* PmsgGotoRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3ED5DB1EA2F94500FB7DDA /* PmsgGotoRoom.swift */; };
+		AD3ED5E01EA3F32400FB7DDA /* PmsgServerRoomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3ED5DD1EA3F31200FB7DDA /* PmsgServerRoomList.swift */; };
+		AD3ED5E21EA4186F00FB7DDA /* PmsgRoomUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3ED5E11EA4186F00FB7DDA /* PmsgRoomUserList.swift */; };
+		AD3ED5E31EA4186F00FB7DDA /* PmsgRoomUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3ED5E11EA4186F00FB7DDA /* PmsgRoomUserList.swift */; };
+		AD4461E91E90766B00A60EEF /* ChatTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4461E81E90766B00A60EEF /* ChatTextFieldCell.swift */; };
+		AD4B91971EA7092400B75B40 /* PmsgXTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B91961EA7092400B75B40 /* PmsgXTalk.swift */; };
+		AD4B91981EA7092400B75B40 /* PmsgXTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B91961EA7092400B75B40 /* PmsgXTalk.swift */; };
+		AD4B919A1EA91F7A00B75B40 /* PmsgXWhisper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B91991EA91F7900B75B40 /* PmsgXWhisper.swift */; };
+		AD4B919B1EA91F7A00B75B40 /* PmsgXWhisper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B91991EA91F7900B75B40 /* PmsgXWhisper.swift */; };
+		AD5088AE1E88DBE3006E3161 /* Alcazar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD5088AC1E88DBE3006E3161 /* Alcazar.xcdatamodeld */; };
+		AD5088AF1E88DBE3006E3161 /* Alcazar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD5088AC1E88DBE3006E3161 /* Alcazar.xcdatamodeld */; };
+		AD52C7F91E88D48D00ED4397 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7F61E88D48D00ED4397 /* DataExtensions.swift */; };
+		AD52C7FA1E88D48D00ED4397 /* SequenceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7F71E88D48D00ED4397 /* SequenceExtensions.swift */; };
+		AD52C7FB1E88D48D00ED4397 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7F81E88D48D00ED4397 /* StringExtensions.swift */; };
+		AD52C8001E88D4F800ED4397 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7FE1E88D4F800ED4397 /* AppLogger.swift */; };
+		AD52C8011E88D4F800ED4397 /* AppHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7FF1E88D4F800ED4397 /* AppHttpClient.swift */; };
+		AD52C8061E88D52C00ED4397 /* Pclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C8051E88D52C00ED4397 /* Pclient.swift */; };
+		AD52C8081E88D53600ED4397 /* PmsgLogon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C8071E88D53600ED4397 /* PmsgLogon.swift */; };
+		AD52C8111E88D54000ED4397 /* PclientFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C8091E88D54000ED4397 /* PclientFlags.swift */; };
+		AD52C8121E88D54000ED4397 /* Pcrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C80A1E88D54000ED4397 /* Pcrypto.swift */; };
+		AD52C8141E88D54000ED4397 /* Pmsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C80C1E88D54000ED4397 /* Pmsg.swift */; };
+		AD52C8161E88D54000ED4397 /* Proom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C80E1E88D54000ED4397 /* Proom.swift */; };
+		AD52C8171E88D54000ED4397 /* Pserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C80F1E88D54000ED4397 /* Pserver.swift */; };
+		AD52C8181E88D54000ED4397 /* Puser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C8101E88D54000ED4397 /* Puser.swift */; };
+		AD53A0E21EC3E2ED002F3575 /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD53A0E11EC3E2ED002F3575 /* NSAttributedStringExtensions.swift */; };
+		AD6004501E8E242C004CC6EA /* ChatTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60044F1E8E242C004CC6EA /* ChatTextField.swift */; };
+		AD6133E71E952F95007E7EE2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6133E61E952F95007E7EE2 /* QuartzCore.framework */; };
+		AD633D4C1E8C39C100EEF72C /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD633D4B1E8C39C100EEF72C /* UserListViewController.swift */; };
+		AD662DEE1E8C60E800CE0E70 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD662DED1E8C60E800CE0E70 /* MainWindowController.swift */; };
+		AD662DF01E8C7A3400CE0E70 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD662DEF1E8C7A3400CE0E70 /* LogViewController.swift */; };
+		AD67B6861ECBB56A00C7C2E4 /* Pprop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD67B6851ECBB56A00C7C2E4 /* Pprop.swift */; };
+		AD67B6871ECBB56B00C7C2E4 /* Pprop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD67B6851ECBB56A00C7C2E4 /* Pprop.swift */; };
+		ADA4133E1E8B361B00CDB648 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7F61E88D48D00ED4397 /* DataExtensions.swift */; };
+		ADA4133F1E8B361B00CDB648 /* SequenceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7F71E88D48D00ED4397 /* SequenceExtensions.swift */; };
+		ADA413401E8B361B00CDB648 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7F81E88D48D00ED4397 /* StringExtensions.swift */; };
+		ADA413411E8B361B00CDB648 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7FE1E88D4F800ED4397 /* AppLogger.swift */; };
+		ADA413421E8B361B00CDB648 /* AppHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C7FF1E88D4F800ED4397 /* AppHttpClient.swift */; };
+		ADA413431E8B361B00CDB648 /* Pclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C8051E88D52C00ED4397 /* Pclient.swift */; };
+		ADA413441E8B361B00CDB648 /* PmsgLogon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C8071E88D53600ED4397 /* PmsgLogon.swift */; };
+		ADA413451E8B361B00CDB648 /* PclientFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C8091E88D54000ED4397 /* PclientFlags.swift */; };
+		ADA413461E8B361B00CDB648 /* Pcrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C80A1E88D54000ED4397 /* Pcrypto.swift */; };
+		ADA413481E8B361B00CDB648 /* Pmsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C80C1E88D54000ED4397 /* Pmsg.swift */; };
+		ADA4134A1E8B361B00CDB648 /* Proom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C80E1E88D54000ED4397 /* Proom.swift */; };
+		ADA4134B1E8B361B00CDB648 /* Pserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C80F1E88D54000ED4397 /* Pserver.swift */; };
+		ADA4134C1E8B361B00CDB648 /* Puser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52C8101E88D54000ED4397 /* Puser.swift */; };
+		ADA4135C1E8B7D4B00CDB648 /* RoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA4135B1E8B7D4B00CDB648 /* RoomListViewController.swift */; };
+		ADAB040B1E9A5C2300946B47 /* PalaceSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAB040A1E9A5C2300946B47 /* PalaceSearchField.swift */; };
+		ADC2CD841EB9A7AE002C6CC6 /* NSImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2CD831EB9A7AE002C6CC6 /* NSImageExtensions.swift */; };
+		ADC2CD861EBADDA9002C6CC6 /* PmsgMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2CD851EBADDA9002C6CC6 /* PmsgMovement.swift */; };
+		ADC2CD871EBADDA9002C6CC6 /* PmsgMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2CD851EBADDA9002C6CC6 /* PmsgMovement.swift */; };
+		ADE1F1771E9B37FA002E56B7 /* Plogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1F1761E9B37FA002E56B7 /* Plogger.swift */; };
+		ADE1F1781E9B37FA002E56B7 /* Plogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1F1761E9B37FA002E56B7 /* Plogger.swift */; };
+		ADEAA0D31EA661FE00305EDC /* PmsgPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAA0D21EA661FE00305EDC /* PmsgPing.swift */; };
+		ADEAA0D41EA661FE00305EDC /* PmsgPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAA0D21EA661FE00305EDC /* PmsgPing.swift */; };
+		ADEAA0D61EA6692A00305EDC /* PmsgPong.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAA0D51EA6692A00305EDC /* PmsgPong.swift */; };
+		ADEAA0D71EA6692A00305EDC /* PmsgPong.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAA0D51EA6692A00305EDC /* PmsgPong.swift */; };
+		ADF672311EABF425001DAEC6 /* PmsgRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF672301EABF425001DAEC6 /* PmsgRoom.swift */; };
+		ADF672321EABF425001DAEC6 /* PmsgRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF672301EABF425001DAEC6 /* PmsgRoom.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD0B6FE71E88CA2C00600930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0B6FC71E88CA2C00600930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0B6FCE1E88CA2C00600930;
+			remoteInfo = Alcazar;
+		};
+		AD0B6FF21E88CA2C00600930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0B6FC71E88CA2C00600930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0B6FCE1E88CA2C00600930;
+			remoteInfo = Alcazar;
+		};
+		AD0B701C1E88D1FC00600930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0B6FC71E88CA2C00600930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0B70071E88D1FC00600930;
+			remoteInfo = "Alcazar macOS";
+		};
+		AD0B70271E88D1FD00600930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD0B6FC71E88CA2C00600930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD0B70071E88D1FC00600930;
+			remoteInfo = "Alcazar macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADA413551E8B5B3C00CDB648 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD046F641ECCFBDB00B0B343 /* AppQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppQueue.swift; sourceTree = "<group>"; };
+		AD046F671ECCFCA700B0B343 /* AppLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLinkedList.swift; sourceTree = "<group>"; };
+		AD046F6A1ECCFFCD00B0B343 /* Pmessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pmessage.swift; sourceTree = "<group>"; };
+		AD046F6D1ECF9CB600B0B343 /* PchatBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PchatBubble.swift; sourceTree = "<group>"; };
+		AD069CB41EB2491A00E8D39D /* AppImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		AD069CB71EB288CB00E8D39D /* Pimage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pimage.swift; sourceTree = "<group>"; };
+		AD069CBA1EB3320800E8D39D /* PmsgHttpServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgHttpServer.swift; sourceTree = "<group>"; };
+		AD069CC01EB4116300E8D39D /* AppEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEvent.swift; sourceTree = "<group>"; };
+		AD0B6FCF1E88CA2C00600930 /* Alcazar iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alcazar iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B6FD21E88CA2C00600930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD0B6FD41E88CA2C00600930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD0B6FD71E88CA2C00600930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD0B6FDC1E88CA2C00600930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0B6FDF1E88CA2C00600930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD0B6FE11E88CA2C00600930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0B6FE61E88CA2C00600930 /* Alcazar iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcazar iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B6FEA1E88CA2C00600930 /* AlcazarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcazarTests.swift; sourceTree = "<group>"; };
+		AD0B6FEC1E88CA2C00600930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0B6FF11E88CA2C00600930 /* Alcazar iOS UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcazar iOS UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B6FF51E88CA2D00600930 /* AlcazarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcazarUITests.swift; sourceTree = "<group>"; };
+		AD0B6FF71E88CA2D00600930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0B70081E88D1FC00600930 /* Alcazar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcazar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B700A1E88D1FC00600930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD0B700C1E88D1FC00600930 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AD0B70111E88D1FC00600930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0B70141E88D1FC00600930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD0B70161E88D1FC00600930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0B701B1E88D1FC00600930 /* Alcazar macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcazar macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B701F1E88D1FC00600930 /* Alcazar_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcazar_macOSTests.swift; sourceTree = "<group>"; };
+		AD0B70211E88D1FC00600930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0B70261E88D1FD00600930 /* Alcazar macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcazar macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B702A1E88D1FD00600930 /* Alcazar_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcazar_macOSUITests.swift; sourceTree = "<group>"; };
+		AD0B702C1E88D1FD00600930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1161FB1EC54F0F00E6A000 /* ChatBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
+		AD1CC6881EAE772A002C64AF /* PmsgUserNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserNew.swift; sourceTree = "<group>"; };
+		AD1CC68B1EAE7751002C64AF /* PmsgUserExitRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserExitRoom.swift; sourceTree = "<group>"; };
+		AD1CC68E1EAEB116002C64AF /* PmsgUserLeaving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserLeaving.swift; sourceTree = "<group>"; };
+		AD1FCFAA1EB005D900177DA7 /* PmsgServerUserList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgServerUserList.swift; sourceTree = "<group>"; };
+		AD203DE61EB59213008945D6 /* NSWindowExceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSWindowExceptions.swift; sourceTree = "<group>"; };
+		AD211CE51ED461C900D860B2 /* Alcazar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Alcazar.entitlements; sourceTree = "<group>"; };
+		AD22BDA41EBDC25E00DD8ABD /* PmsgUserRename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserRename.swift; sourceTree = "<group>"; };
+		AD23F9B81EC08ADE00B767A1 /* PmsgServerVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgServerVersion.swift; sourceTree = "<group>"; };
+		AD23F9BB1EC08AF600B767A1 /* PmsgServerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgServerInfo.swift; sourceTree = "<group>"; };
+		AD23F9BE1EC08B1100B767A1 /* PmsgTerminate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgTerminate.swift; sourceTree = "<group>"; };
+		AD23F9C11EC08B2F00B767A1 /* PmsgUserStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserStatus.swift; sourceTree = "<group>"; };
+		AD23F9C41EC08B5400B767A1 /* PmsgUserLoggedOnAndMax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserLoggedOnAndMax.swift; sourceTree = "<group>"; };
+		AD23F9C71EC08B6C00B767A1 /* PmsgAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgAsset.swift; sourceTree = "<group>"; };
+		AD23F9CA1EC08B8100B767A1 /* PmsgAssetQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgAssetQuery.swift; sourceTree = "<group>"; };
+		AD23F9CD1EC08B9200B767A1 /* PmsgFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgFile.swift; sourceTree = "<group>"; };
+		AD23F9D01EC08BBD00B767A1 /* PmsgUserColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserColor.swift; sourceTree = "<group>"; };
+		AD23F9D31EC08BCF00B767A1 /* PmsgUserFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserFace.swift; sourceTree = "<group>"; };
+		AD23F9D61EC08BE600B767A1 /* PmsgUserDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserDescription.swift; sourceTree = "<group>"; };
+		AD23F9D91EC08BFA00B767A1 /* PmsgUserProp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgUserProp.swift; sourceTree = "<group>"; };
+		AD23F9DC1EC08C8000B767A1 /* PmsgRoomDescend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgRoomDescend.swift; sourceTree = "<group>"; };
+		AD23F9DF1EC08CBA00B767A1 /* PmsgPropMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgPropMove.swift; sourceTree = "<group>"; };
+		AD23F9E21EC08CCE00B767A1 /* PmsgPropNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgPropNew.swift; sourceTree = "<group>"; };
+		AD23F9E51EC08CE200B767A1 /* PmsgPropDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgPropDelete.swift; sourceTree = "<group>"; };
+		AD23F9E81EC08D1E00B767A1 /* PmsgDoorLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgDoorLock.swift; sourceTree = "<group>"; };
+		AD23F9EB1EC08D2E00B767A1 /* PmsgDoorUnlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgDoorUnlock.swift; sourceTree = "<group>"; };
+		AD23F9EE1EC08D4B00B767A1 /* PmsgPictMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgPictMove.swift; sourceTree = "<group>"; };
+		AD23F9F11EC08D6000B767A1 /* PmsgSpotMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgSpotMove.swift; sourceTree = "<group>"; };
+		AD23F9F41EC08D7100B767A1 /* PmsgSpotState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgSpotState.swift; sourceTree = "<group>"; };
+		AD23F9F71EC08D8E00B767A1 /* PmsgDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgDraw.swift; sourceTree = "<group>"; };
+		AD23F9FA1EC08D9D00B767A1 /* PmsgNavError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgNavError.swift; sourceTree = "<group>"; };
+		AD23F9FD1EC08DBB00B767A1 /* PmsgAuthenticate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgAuthenticate.swift; sourceTree = "<group>"; };
+		AD23FA001EC08DDF00B767A1 /* PmsgBlowthru.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgBlowthru.swift; sourceTree = "<group>"; };
+		AD24D3961EC058710002DA5E /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		AD254A4C1E9D1FC800C5CBD7 /* AppTcpSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTcpSocket.swift; sourceTree = "<group>"; };
+		AD2DF2F61EB69F9000A3A32C /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		AD2DF2F91EB6FACF00A3A32C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AD3ED5D81EA2938200FB7DDA /* PmsgTalk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgTalk.swift; sourceTree = "<group>"; };
+		AD3ED5DB1EA2F94500FB7DDA /* PmsgGotoRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgGotoRoom.swift; sourceTree = "<group>"; };
+		AD3ED5DD1EA3F31200FB7DDA /* PmsgServerRoomList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgServerRoomList.swift; sourceTree = "<group>"; };
+		AD3ED5E11EA4186F00FB7DDA /* PmsgRoomUserList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgRoomUserList.swift; sourceTree = "<group>"; };
+		AD4461E81E90766B00A60EEF /* ChatTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextFieldCell.swift; sourceTree = "<group>"; };
+		AD4B91961EA7092400B75B40 /* PmsgXTalk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgXTalk.swift; sourceTree = "<group>"; };
+		AD4B91991EA91F7900B75B40 /* PmsgXWhisper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgXWhisper.swift; sourceTree = "<group>"; };
+		AD5088AD1E88DBE3006E3161 /* Alcazar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alcazar.xcdatamodel; sourceTree = "<group>"; };
+		AD52C7F61E88D48D00ED4397 /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
+		AD52C7F71E88D48D00ED4397 /* SequenceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceExtensions.swift; sourceTree = "<group>"; };
+		AD52C7F81E88D48D00ED4397 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		AD52C7FE1E88D4F800ED4397 /* AppLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+		AD52C7FF1E88D4F800ED4397 /* AppHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHttpClient.swift; sourceTree = "<group>"; };
+		AD52C8051E88D52C00ED4397 /* Pclient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pclient.swift; sourceTree = "<group>"; };
+		AD52C8071E88D53600ED4397 /* PmsgLogon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgLogon.swift; sourceTree = "<group>"; };
+		AD52C8091E88D54000ED4397 /* PclientFlags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PclientFlags.swift; sourceTree = "<group>"; };
+		AD52C80A1E88D54000ED4397 /* Pcrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pcrypto.swift; sourceTree = "<group>"; };
+		AD52C80C1E88D54000ED4397 /* Pmsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pmsg.swift; path = ../Models/Pmsg.swift; sourceTree = "<group>"; };
+		AD52C80E1E88D54000ED4397 /* Proom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proom.swift; sourceTree = "<group>"; };
+		AD52C80F1E88D54000ED4397 /* Pserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pserver.swift; sourceTree = "<group>"; };
+		AD52C8101E88D54000ED4397 /* Puser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puser.swift; sourceTree = "<group>"; };
+		AD53A0E11EC3E2ED002F3575 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
+		AD60044F1E8E242C004CC6EA /* ChatTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextField.swift; sourceTree = "<group>"; };
+		AD6133E61E952F95007E7EE2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AD633D4B1E8C39C100EEF72C /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		AD662DED1E8C60E800CE0E70 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		AD662DEF1E8C7A3400CE0E70 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		AD67B6851ECBB56A00C7C2E4 /* Pprop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pprop.swift; sourceTree = "<group>"; };
+		ADA4135B1E8B7D4B00CDB648 /* RoomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomListViewController.swift; sourceTree = "<group>"; };
+		ADAB040A1E9A5C2300946B47 /* PalaceSearchField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalaceSearchField.swift; sourceTree = "<group>"; };
+		ADC2CD831EB9A7AE002C6CC6 /* NSImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageExtensions.swift; sourceTree = "<group>"; };
+		ADC2CD851EBADDA9002C6CC6 /* PmsgMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgMovement.swift; sourceTree = "<group>"; };
+		ADE1F1761E9B37FA002E56B7 /* Plogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Plogger.swift; path = ../Plogger.swift; sourceTree = "<group>"; };
+		ADEAA0D21EA661FE00305EDC /* PmsgPing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgPing.swift; sourceTree = "<group>"; };
+		ADEAA0D51EA6692A00305EDC /* PmsgPong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgPong.swift; sourceTree = "<group>"; };
+		ADF672301EABF425001DAEC6 /* PmsgRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmsgRoom.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD0B6FCC1E88CA2C00600930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B6FE31E88CA2C00600930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B6FEE1E88CA2C00600930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B70051E88D1FC00600930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6133E71E952F95007E7EE2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B70181E88D1FC00600930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B70231E88D1FD00600930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0B6FC61E88CA2C00600930 = {
+			isa = PBXGroup;
+			children = (
+				AD52C7EE1E88D26500ED4397 /* Alcazar Shared */,
+				AD0B6FD11E88CA2C00600930 /* Alcazar iOS */,
+				AD0B6FE91E88CA2C00600930 /* AlcazarTests */,
+				AD0B6FF41E88CA2C00600930 /* AlcazarUITests */,
+				AD0B70091E88D1FC00600930 /* Alcazar macOS */,
+				AD0B701E1E88D1FC00600930 /* Alcazar macOSTests */,
+				AD0B70291E88D1FD00600930 /* Alcazar macOSUITests */,
+				AD0B6FD01E88CA2C00600930 /* Products */,
+				ADA4134D1E8B52C500CDB648 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD0B6FD01E88CA2C00600930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B6FCF1E88CA2C00600930 /* Alcazar iOS.app */,
+				AD0B6FE61E88CA2C00600930 /* Alcazar iOS Tests.xctest */,
+				AD0B6FF11E88CA2C00600930 /* Alcazar iOS UITests.xctest */,
+				AD0B70081E88D1FC00600930 /* Alcazar.app */,
+				AD0B701B1E88D1FC00600930 /* Alcazar macOSTests.xctest */,
+				AD0B70261E88D1FD00600930 /* Alcazar macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0B6FD11E88CA2C00600930 /* Alcazar iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B6FD21E88CA2C00600930 /* AppDelegate.swift */,
+				AD0B6FD41E88CA2C00600930 /* ViewController.swift */,
+				AD0B6FD61E88CA2C00600930 /* Main.storyboard */,
+				AD0B6FDC1E88CA2C00600930 /* Assets.xcassets */,
+				AD0B6FDE1E88CA2C00600930 /* LaunchScreen.storyboard */,
+				AD0B6FE11E88CA2C00600930 /* Info.plist */,
+			);
+			path = "Alcazar iOS";
+			sourceTree = "<group>";
+		};
+		AD0B6FE91E88CA2C00600930 /* AlcazarTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B6FEA1E88CA2C00600930 /* AlcazarTests.swift */,
+				AD0B6FEC1E88CA2C00600930 /* Info.plist */,
+			);
+			path = AlcazarTests;
+			sourceTree = "<group>";
+		};
+		AD0B6FF41E88CA2C00600930 /* AlcazarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B6FF51E88CA2D00600930 /* AlcazarUITests.swift */,
+				AD0B6FF71E88CA2D00600930 /* Info.plist */,
+			);
+			path = AlcazarUITests;
+			sourceTree = "<group>";
+		};
+		AD0B70091E88D1FC00600930 /* Alcazar macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD211CE51ED461C900D860B2 /* Alcazar.entitlements */,
+				AD0B700A1E88D1FC00600930 /* AppDelegate.swift */,
+				AD1161FB1EC54F0F00E6A000 /* ChatBubbleView.swift */,
+				AD662DED1E8C60E800CE0E70 /* MainWindowController.swift */,
+				AD2DF2F91EB6FACF00A3A32C /* MainView.swift */,
+				AD0B700C1E88D1FC00600930 /* MainViewController.swift */,
+				ADA4135B1E8B7D4B00CDB648 /* RoomListViewController.swift */,
+				AD633D4B1E8C39C100EEF72C /* UserListViewController.swift */,
+				AD662DEF1E8C7A3400CE0E70 /* LogViewController.swift */,
+				AD60044F1E8E242C004CC6EA /* ChatTextField.swift */,
+				AD4461E81E90766B00A60EEF /* ChatTextFieldCell.swift */,
+				ADAB040A1E9A5C2300946B47 /* PalaceSearchField.swift */,
+				AD0B70111E88D1FC00600930 /* Assets.xcassets */,
+				AD0B70131E88D1FC00600930 /* Main.storyboard */,
+				AD0B70161E88D1FC00600930 /* Info.plist */,
+			);
+			path = "Alcazar macOS";
+			sourceTree = "<group>";
+		};
+		AD0B701E1E88D1FC00600930 /* Alcazar macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B701F1E88D1FC00600930 /* Alcazar_macOSTests.swift */,
+				AD0B70211E88D1FC00600930 /* Info.plist */,
+			);
+			path = "Alcazar macOSTests";
+			sourceTree = "<group>";
+		};
+		AD0B70291E88D1FD00600930 /* Alcazar macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B702A1E88D1FD00600930 /* Alcazar_macOSUITests.swift */,
+				AD0B702C1E88D1FD00600930 /* Info.plist */,
+			);
+			path = "Alcazar macOSUITests";
+			sourceTree = "<group>";
+		};
+		AD52C7EE1E88D26500ED4397 /* Alcazar Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD52C7FC1E88D49100ED4397 /* Extensions */,
+				AD52C7FD1E88D4BA00ED4397 /* Helpers */,
+				AD52C8021E88D50000ED4397 /* Palace */,
+				AD5088AC1E88DBE3006E3161 /* Alcazar.xcdatamodeld */,
+			);
+			path = "Alcazar Shared";
+			sourceTree = "<group>";
+		};
+		AD52C7FC1E88D49100ED4397 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD24D3961EC058710002DA5E /* ArrayExtensions.swift */,
+				AD52C7F61E88D48D00ED4397 /* DataExtensions.swift */,
+				AD53A0E11EC3E2ED002F3575 /* NSAttributedStringExtensions.swift */,
+				ADC2CD831EB9A7AE002C6CC6 /* NSImageExtensions.swift */,
+				AD203DE61EB59213008945D6 /* NSWindowExceptions.swift */,
+				AD52C7F71E88D48D00ED4397 /* SequenceExtensions.swift */,
+				AD52C7F81E88D48D00ED4397 /* StringExtensions.swift */,
+				AD2DF2F61EB69F9000A3A32C /* UIImageExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD52C7FD1E88D4BA00ED4397 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD069CC01EB4116300E8D39D /* AppEvent.swift */,
+				AD52C7FF1E88D4F800ED4397 /* AppHttpClient.swift */,
+				AD069CB41EB2491A00E8D39D /* AppImage.swift */,
+				AD046F671ECCFCA700B0B343 /* AppLinkedList.swift */,
+				AD52C7FE1E88D4F800ED4397 /* AppLogger.swift */,
+				AD046F641ECCFBDB00B0B343 /* AppQueue.swift */,
+				AD254A4C1E9D1FC800C5CBD7 /* AppTcpSocket.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AD52C8021E88D50000ED4397 /* Palace */ = {
+			isa = PBXGroup;
+			children = (
+				AD52C8051E88D52C00ED4397 /* Pclient.swift */,
+				AD52C8041E88D51A00ED4397 /* Pmsgs */,
+				AD52C8031E88D50E00ED4397 /* Models */,
+			);
+			path = Palace;
+			sourceTree = "<group>";
+		};
+		AD52C8031E88D50E00ED4397 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD046F6D1ECF9CB600B0B343 /* PchatBubble.swift */,
+				AD52C8091E88D54000ED4397 /* PclientFlags.swift */,
+				AD52C80A1E88D54000ED4397 /* Pcrypto.swift */,
+				AD069CB71EB288CB00E8D39D /* Pimage.swift */,
+				ADE1F1761E9B37FA002E56B7 /* Plogger.swift */,
+				AD046F6A1ECCFFCD00B0B343 /* Pmessage.swift */,
+				AD67B6851ECBB56A00C7C2E4 /* Pprop.swift */,
+				AD52C80E1E88D54000ED4397 /* Proom.swift */,
+				AD52C80F1E88D54000ED4397 /* Pserver.swift */,
+				AD52C8101E88D54000ED4397 /* Puser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD52C8041E88D51A00ED4397 /* Pmsgs */ = {
+			isa = PBXGroup;
+			children = (
+				AD52C80C1E88D54000ED4397 /* Pmsg.swift */,
+				AD23F9C71EC08B6C00B767A1 /* PmsgAsset.swift */,
+				AD23F9CA1EC08B8100B767A1 /* PmsgAssetQuery.swift */,
+				AD23F9FD1EC08DBB00B767A1 /* PmsgAuthenticate.swift */,
+				AD23FA001EC08DDF00B767A1 /* PmsgBlowthru.swift */,
+				AD23F9E81EC08D1E00B767A1 /* PmsgDoorLock.swift */,
+				AD23F9EB1EC08D2E00B767A1 /* PmsgDoorUnlock.swift */,
+				AD23F9F71EC08D8E00B767A1 /* PmsgDraw.swift */,
+				AD23F9CD1EC08B9200B767A1 /* PmsgFile.swift */,
+				AD3ED5DB1EA2F94500FB7DDA /* PmsgGotoRoom.swift */,
+				AD069CBA1EB3320800E8D39D /* PmsgHttpServer.swift */,
+				AD52C8071E88D53600ED4397 /* PmsgLogon.swift */,
+				ADC2CD851EBADDA9002C6CC6 /* PmsgMovement.swift */,
+				AD23F9FA1EC08D9D00B767A1 /* PmsgNavError.swift */,
+				AD23F9EE1EC08D4B00B767A1 /* PmsgPictMove.swift */,
+				ADEAA0D21EA661FE00305EDC /* PmsgPing.swift */,
+				ADEAA0D51EA6692A00305EDC /* PmsgPong.swift */,
+				AD23F9E51EC08CE200B767A1 /* PmsgPropDelete.swift */,
+				AD23F9DF1EC08CBA00B767A1 /* PmsgPropMove.swift */,
+				AD23F9E21EC08CCE00B767A1 /* PmsgPropNew.swift */,
+				ADF672301EABF425001DAEC6 /* PmsgRoom.swift */,
+				AD23F9DC1EC08C8000B767A1 /* PmsgRoomDescend.swift */,
+				AD3ED5E11EA4186F00FB7DDA /* PmsgRoomUserList.swift */,
+				AD23F9BB1EC08AF600B767A1 /* PmsgServerInfo.swift */,
+				AD3ED5DD1EA3F31200FB7DDA /* PmsgServerRoomList.swift */,
+				AD1FCFAA1EB005D900177DA7 /* PmsgServerUserList.swift */,
+				AD23F9B81EC08ADE00B767A1 /* PmsgServerVersion.swift */,
+				AD23F9F11EC08D6000B767A1 /* PmsgSpotMove.swift */,
+				AD23F9F41EC08D7100B767A1 /* PmsgSpotState.swift */,
+				AD3ED5D81EA2938200FB7DDA /* PmsgTalk.swift */,
+				AD23F9BE1EC08B1100B767A1 /* PmsgTerminate.swift */,
+				AD23F9D01EC08BBD00B767A1 /* PmsgUserColor.swift */,
+				AD23F9D61EC08BE600B767A1 /* PmsgUserDescription.swift */,
+				AD1CC68B1EAE7751002C64AF /* PmsgUserExitRoom.swift */,
+				AD23F9D31EC08BCF00B767A1 /* PmsgUserFace.swift */,
+				AD1CC68E1EAEB116002C64AF /* PmsgUserLeaving.swift */,
+				AD23F9C41EC08B5400B767A1 /* PmsgUserLoggedOnAndMax.swift */,
+				AD1CC6881EAE772A002C64AF /* PmsgUserNew.swift */,
+				AD23F9D91EC08BFA00B767A1 /* PmsgUserProp.swift */,
+				AD22BDA41EBDC25E00DD8ABD /* PmsgUserRename.swift */,
+				AD23F9C11EC08B2F00B767A1 /* PmsgUserStatus.swift */,
+				AD4B91961EA7092400B75B40 /* PmsgXTalk.swift */,
+				AD4B91991EA91F7900B75B40 /* PmsgXWhisper.swift */,
+			);
+			path = Pmsgs;
+			sourceTree = "<group>";
+		};
+		ADA4134D1E8B52C500CDB648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD6133E61E952F95007E7EE2 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD0B6FCE1E88CA2C00600930 /* Alcazar iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0B6FFA1E88CA2D00600930 /* Build configuration list for PBXNativeTarget "Alcazar iOS" */;
+			buildPhases = (
+				AD0B6FCB1E88CA2C00600930 /* Sources */,
+				AD0B6FCC1E88CA2C00600930 /* Frameworks */,
+				AD0B6FCD1E88CA2C00600930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alcazar iOS";
+			productName = Alcazar;
+			productReference = AD0B6FCF1E88CA2C00600930 /* Alcazar iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0B6FE51E88CA2C00600930 /* Alcazar iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0B6FFD1E88CA2D00600930 /* Build configuration list for PBXNativeTarget "Alcazar iOS Tests" */;
+			buildPhases = (
+				AD0B6FE21E88CA2C00600930 /* Sources */,
+				AD0B6FE31E88CA2C00600930 /* Frameworks */,
+				AD0B6FE41E88CA2C00600930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0B6FE81E88CA2C00600930 /* PBXTargetDependency */,
+			);
+			name = "Alcazar iOS Tests";
+			productName = AlcazarTests;
+			productReference = AD0B6FE61E88CA2C00600930 /* Alcazar iOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD0B6FF01E88CA2C00600930 /* Alcazar iOS UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0B70001E88CA2D00600930 /* Build configuration list for PBXNativeTarget "Alcazar iOS UITests" */;
+			buildPhases = (
+				AD0B6FED1E88CA2C00600930 /* Sources */,
+				AD0B6FEE1E88CA2C00600930 /* Frameworks */,
+				AD0B6FEF1E88CA2C00600930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0B6FF31E88CA2C00600930 /* PBXTargetDependency */,
+			);
+			name = "Alcazar iOS UITests";
+			productName = AlcazarUITests;
+			productReference = AD0B6FF11E88CA2C00600930 /* Alcazar iOS UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD0B70071E88D1FC00600930 /* Alcazar macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0B702D1E88D1FD00600930 /* Build configuration list for PBXNativeTarget "Alcazar macOS" */;
+			buildPhases = (
+				ADA413551E8B5B3C00CDB648 /* CopyFiles */,
+				AD0B70041E88D1FC00600930 /* Sources */,
+				AD0B70051E88D1FC00600930 /* Frameworks */,
+				AD0B70061E88D1FC00600930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alcazar macOS";
+			productName = "Alcazar macOS";
+			productReference = AD0B70081E88D1FC00600930 /* Alcazar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0B701A1E88D1FC00600930 /* Alcazar macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0B70301E88D1FD00600930 /* Build configuration list for PBXNativeTarget "Alcazar macOSTests" */;
+			buildPhases = (
+				AD0B70171E88D1FC00600930 /* Sources */,
+				AD0B70181E88D1FC00600930 /* Frameworks */,
+				AD0B70191E88D1FC00600930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0B701D1E88D1FC00600930 /* PBXTargetDependency */,
+			);
+			name = "Alcazar macOSTests";
+			productName = "Alcazar macOSTests";
+			productReference = AD0B701B1E88D1FC00600930 /* Alcazar macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD0B70251E88D1FD00600930 /* Alcazar macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0B70331E88D1FD00600930 /* Build configuration list for PBXNativeTarget "Alcazar macOSUITests" */;
+			buildPhases = (
+				AD0B70221E88D1FD00600930 /* Sources */,
+				AD0B70231E88D1FD00600930 /* Frameworks */,
+				AD0B70241E88D1FD00600930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0B70281E88D1FD00600930 /* PBXTargetDependency */,
+			);
+			name = "Alcazar macOSUITests";
+			productName = "Alcazar macOSUITests";
+			productReference = AD0B70261E88D1FD00600930 /* Alcazar macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD0B6FC71E88CA2C00600930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Orkey;
+				TargetAttributes = {
+					AD0B6FCE1E88CA2C00600930 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59GAM9U66R;
+						ProvisioningStyle = Automatic;
+					};
+					AD0B6FE51E88CA2C00600930 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59GAM9U66R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD0B6FCE1E88CA2C00600930;
+					};
+					AD0B6FF01E88CA2C00600930 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59GAM9U66R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD0B6FCE1E88CA2C00600930;
+					};
+					AD0B70071E88D1FC00600930 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59GAM9U66R;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					AD0B701A1E88D1FC00600930 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59GAM9U66R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD0B70071E88D1FC00600930;
+					};
+					AD0B70251E88D1FD00600930 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59GAM9U66R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD0B70071E88D1FC00600930;
+					};
+				};
+			};
+			buildConfigurationList = AD0B6FCA1E88CA2C00600930 /* Build configuration list for PBXProject "Alcazar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD0B6FC61E88CA2C00600930;
+			productRefGroup = AD0B6FD01E88CA2C00600930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD0B6FCE1E88CA2C00600930 /* Alcazar iOS */,
+				AD0B6FE51E88CA2C00600930 /* Alcazar iOS Tests */,
+				AD0B6FF01E88CA2C00600930 /* Alcazar iOS UITests */,
+				AD0B70071E88D1FC00600930 /* Alcazar macOS */,
+				AD0B701A1E88D1FC00600930 /* Alcazar macOSTests */,
+				AD0B70251E88D1FD00600930 /* Alcazar macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD0B6FCD1E88CA2C00600930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B6FE01E88CA2C00600930 /* LaunchScreen.storyboard in Resources */,
+				AD0B6FDD1E88CA2C00600930 /* Assets.xcassets in Resources */,
+				AD0B6FD81E88CA2C00600930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B6FE41E88CA2C00600930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B6FEF1E88CA2C00600930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B70061E88D1FC00600930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B70121E88D1FC00600930 /* Assets.xcassets in Resources */,
+				AD0B70151E88D1FC00600930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B70191E88D1FC00600930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B70241E88D1FD00600930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD0B6FCB1E88CA2C00600930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52C8061E88D52C00ED4397 /* Pclient.swift in Sources */,
+				AD3ED5DE1EA3F31200FB7DDA /* PmsgServerRoomList.swift in Sources */,
+				AD23F9EF1EC08D4B00B767A1 /* PmsgPictMove.swift in Sources */,
+				AD52C7FB1E88D48D00ED4397 /* StringExtensions.swift in Sources */,
+				AD52C8181E88D54000ED4397 /* Puser.swift in Sources */,
+				AD23F9EC1EC08D2E00B767A1 /* PmsgDoorUnlock.swift in Sources */,
+				AD52C8161E88D54000ED4397 /* Proom.swift in Sources */,
+				AD24D3971EC058710002DA5E /* ArrayExtensions.swift in Sources */,
+				AD23F9FB1EC08D9D00B767A1 /* PmsgNavError.swift in Sources */,
+				AD0B6FD51E88CA2C00600930 /* ViewController.swift in Sources */,
+				AD23F9D11EC08BBD00B767A1 /* PmsgUserColor.swift in Sources */,
+				AD23F9CE1EC08B9200B767A1 /* PmsgFile.swift in Sources */,
+				AD1FCFAB1EB005D900177DA7 /* PmsgServerUserList.swift in Sources */,
+				AD23F9B91EC08ADE00B767A1 /* PmsgServerVersion.swift in Sources */,
+				AD23F9F81EC08D8E00B767A1 /* PmsgDraw.swift in Sources */,
+				AD52C7F91E88D48D00ED4397 /* DataExtensions.swift in Sources */,
+				AD23F9E31EC08CCE00B767A1 /* PmsgPropNew.swift in Sources */,
+				AD046F651ECCFBDB00B0B343 /* AppQueue.swift in Sources */,
+				AD23F9D71EC08BE600B767A1 /* PmsgUserDescription.swift in Sources */,
+				ADE1F1771E9B37FA002E56B7 /* Plogger.swift in Sources */,
+				AD4B919A1EA91F7A00B75B40 /* PmsgXWhisper.swift in Sources */,
+				AD069CB81EB288CB00E8D39D /* Pimage.swift in Sources */,
+				AD0B6FD31E88CA2C00600930 /* AppDelegate.swift in Sources */,
+				AD5088AE1E88DBE3006E3161 /* Alcazar.xcdatamodeld in Sources */,
+				AD52C8121E88D54000ED4397 /* Pcrypto.swift in Sources */,
+				AD23F9C51EC08B5400B767A1 /* PmsgUserLoggedOnAndMax.swift in Sources */,
+				AD1CC6891EAE772A002C64AF /* PmsgUserNew.swift in Sources */,
+				ADEAA0D31EA661FE00305EDC /* PmsgPing.swift in Sources */,
+				AD22BDA51EBDC25E00DD8ABD /* PmsgUserRename.swift in Sources */,
+				AD23FA011EC08DDF00B767A1 /* PmsgBlowthru.swift in Sources */,
+				AD23F9BC1EC08AF600B767A1 /* PmsgServerInfo.swift in Sources */,
+				AD069CC11EB4116300E8D39D /* AppEvent.swift in Sources */,
+				AD52C8011E88D4F800ED4397 /* AppHttpClient.swift in Sources */,
+				AD3ED5E21EA4186F00FB7DDA /* PmsgRoomUserList.swift in Sources */,
+				ADEAA0D61EA6692A00305EDC /* PmsgPong.swift in Sources */,
+				AD23F9F51EC08D7100B767A1 /* PmsgSpotState.swift in Sources */,
+				AD23F9DA1EC08BFA00B767A1 /* PmsgUserProp.swift in Sources */,
+				AD23F9C21EC08B2F00B767A1 /* PmsgUserStatus.swift in Sources */,
+				AD3ED5DC1EA2F94500FB7DDA /* PmsgGotoRoom.swift in Sources */,
+				AD52C8111E88D54000ED4397 /* PclientFlags.swift in Sources */,
+				AD23F9CB1EC08B8100B767A1 /* PmsgAssetQuery.swift in Sources */,
+				AD23F9E91EC08D1E00B767A1 /* PmsgDoorLock.swift in Sources */,
+				AD67B6861ECBB56A00C7C2E4 /* Pprop.swift in Sources */,
+				AD52C8141E88D54000ED4397 /* Pmsg.swift in Sources */,
+				AD069CBB1EB3320800E8D39D /* PmsgHttpServer.swift in Sources */,
+				AD23F9C81EC08B6C00B767A1 /* PmsgAsset.swift in Sources */,
+				AD52C7FA1E88D48D00ED4397 /* SequenceExtensions.swift in Sources */,
+				AD23F9E61EC08CE200B767A1 /* PmsgPropDelete.swift in Sources */,
+				AD1CC68F1EAEB116002C64AF /* PmsgUserLeaving.swift in Sources */,
+				AD52C8001E88D4F800ED4397 /* AppLogger.swift in Sources */,
+				AD23F9BF1EC08B1100B767A1 /* PmsgTerminate.swift in Sources */,
+				AD4B91971EA7092400B75B40 /* PmsgXTalk.swift in Sources */,
+				AD23F9F21EC08D6000B767A1 /* PmsgSpotMove.swift in Sources */,
+				AD3ED5D91EA2938200FB7DDA /* PmsgTalk.swift in Sources */,
+				AD23F9DD1EC08C8000B767A1 /* PmsgRoomDescend.swift in Sources */,
+				AD1CC68C1EAE7751002C64AF /* PmsgUserExitRoom.swift in Sources */,
+				AD046F681ECCFCA700B0B343 /* AppLinkedList.swift in Sources */,
+				AD254A4D1E9D1FC800C5CBD7 /* AppTcpSocket.swift in Sources */,
+				AD23F9FE1EC08DBB00B767A1 /* PmsgAuthenticate.swift in Sources */,
+				AD069CB51EB2491A00E8D39D /* AppImage.swift in Sources */,
+				ADF672311EABF425001DAEC6 /* PmsgRoom.swift in Sources */,
+				AD046F6B1ECCFFCD00B0B343 /* Pmessage.swift in Sources */,
+				AD52C8081E88D53600ED4397 /* PmsgLogon.swift in Sources */,
+				AD23F9E01EC08CBA00B767A1 /* PmsgPropMove.swift in Sources */,
+				AD046F6E1ECF9CB600B0B343 /* PchatBubble.swift in Sources */,
+				AD52C8171E88D54000ED4397 /* Pserver.swift in Sources */,
+				AD23F9D41EC08BCF00B767A1 /* PmsgUserFace.swift in Sources */,
+				ADC2CD861EBADDA9002C6CC6 /* PmsgMovement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B6FE21E88CA2C00600930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B6FEB1E88CA2C00600930 /* AlcazarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B6FED1E88CA2C00600930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B6FF61E88CA2D00600930 /* AlcazarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B70041E88D1FC00600930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD254A4E1E9D1FD500C5CBD7 /* AppTcpSocket.swift in Sources */,
+				ADE1F1781E9B37FA002E56B7 /* Plogger.swift in Sources */,
+				ADA4133E1E8B361B00CDB648 /* DataExtensions.swift in Sources */,
+				AD23F9C61EC08B5400B767A1 /* PmsgUserLoggedOnAndMax.swift in Sources */,
+				AD4461E91E90766B00A60EEF /* ChatTextFieldCell.swift in Sources */,
+				AD23F9E71EC08CE200B767A1 /* PmsgPropDelete.swift in Sources */,
+				ADA4133F1E8B361B00CDB648 /* SequenceExtensions.swift in Sources */,
+				ADA413401E8B361B00CDB648 /* StringExtensions.swift in Sources */,
+				AD2DF2FB1EB6FACF00A3A32C /* MainView.swift in Sources */,
+				AD662DF01E8C7A3400CE0E70 /* LogViewController.swift in Sources */,
+				AD23F9DE1EC08C8000B767A1 /* PmsgRoomDescend.swift in Sources */,
+				AD2DF2F81EB69F9000A3A32C /* UIImageExtensions.swift in Sources */,
+				AD23F9F61EC08D7100B767A1 /* PmsgSpotState.swift in Sources */,
+				AD23FA021EC08DDF00B767A1 /* PmsgBlowthru.swift in Sources */,
+				AD23F9F91EC08D8E00B767A1 /* PmsgDraw.swift in Sources */,
+				AD23F9BA1EC08ADE00B767A1 /* PmsgServerVersion.swift in Sources */,
+				ADA413411E8B361B00CDB648 /* AppLogger.swift in Sources */,
+				AD1CC6901EAEB116002C64AF /* PmsgUserLeaving.swift in Sources */,
+				AD23F9F01EC08D4B00B767A1 /* PmsgPictMove.swift in Sources */,
+				ADA4135C1E8B7D4B00CDB648 /* RoomListViewController.swift in Sources */,
+				ADEAA0D41EA661FE00305EDC /* PmsgPing.swift in Sources */,
+				AD633D4C1E8C39C100EEF72C /* UserListViewController.swift in Sources */,
+				ADA413421E8B361B00CDB648 /* AppHttpClient.swift in Sources */,
+				AD23F9D51EC08BCF00B767A1 /* PmsgUserFace.swift in Sources */,
+				ADA413431E8B361B00CDB648 /* Pclient.swift in Sources */,
+				AD23F9EA1EC08D1E00B767A1 /* PmsgDoorLock.swift in Sources */,
+				AD069CC21EB4116300E8D39D /* AppEvent.swift in Sources */,
+				AD069CB91EB288CB00E8D39D /* Pimage.swift in Sources */,
+				AD23F9ED1EC08D2E00B767A1 /* PmsgDoorUnlock.swift in Sources */,
+				AD23F9FF1EC08DBB00B767A1 /* PmsgAuthenticate.swift in Sources */,
+				ADA413441E8B361B00CDB648 /* PmsgLogon.swift in Sources */,
+				ADA413451E8B361B00CDB648 /* PclientFlags.swift in Sources */,
+				ADC2CD841EB9A7AE002C6CC6 /* NSImageExtensions.swift in Sources */,
+				ADC2CD871EBADDA9002C6CC6 /* PmsgMovement.swift in Sources */,
+				ADF672321EABF425001DAEC6 /* PmsgRoom.swift in Sources */,
+				AD23F9CF1EC08B9200B767A1 /* PmsgFile.swift in Sources */,
+				AD23F9FC1EC08D9D00B767A1 /* PmsgNavError.swift in Sources */,
+				AD3ED5E31EA4186F00FB7DDA /* PmsgRoomUserList.swift in Sources */,
+				AD662DEE1E8C60E800CE0E70 /* MainWindowController.swift in Sources */,
+				AD203DE81EB59213008945D6 /* NSWindowExceptions.swift in Sources */,
+				ADAB040B1E9A5C2300946B47 /* PalaceSearchField.swift in Sources */,
+				AD23F9C31EC08B2F00B767A1 /* PmsgUserStatus.swift in Sources */,
+				AD3ED5DA1EA2BAC200FB7DDA /* PmsgTalk.swift in Sources */,
+				AD046F661ECCFBDB00B0B343 /* AppQueue.swift in Sources */,
+				AD4B91981EA7092400B75B40 /* PmsgXTalk.swift in Sources */,
+				AD23F9C91EC08B6C00B767A1 /* PmsgAsset.swift in Sources */,
+				AD23F9DB1EC08BFA00B767A1 /* PmsgUserProp.swift in Sources */,
+				ADA413461E8B361B00CDB648 /* Pcrypto.swift in Sources */,
+				AD046F6F1ECF9CB600B0B343 /* PchatBubble.swift in Sources */,
+				AD1161FC1EC54F0F00E6A000 /* ChatBubbleView.swift in Sources */,
+				AD1FCFAC1EB005D900177DA7 /* PmsgServerUserList.swift in Sources */,
+				ADA413481E8B361B00CDB648 /* Pmsg.swift in Sources */,
+				ADEAA0D71EA6692A00305EDC /* PmsgPong.swift in Sources */,
+				ADA4134A1E8B361B00CDB648 /* Proom.swift in Sources */,
+				AD23F9F31EC08D6000B767A1 /* PmsgSpotMove.swift in Sources */,
+				AD4B919B1EA91F7A00B75B40 /* PmsgXWhisper.swift in Sources */,
+				AD046F691ECCFCA700B0B343 /* AppLinkedList.swift in Sources */,
+				ADA4134B1E8B361B00CDB648 /* Pserver.swift in Sources */,
+				AD24D3981EC058710002DA5E /* ArrayExtensions.swift in Sources */,
+				AD069CBC1EB3320800E8D39D /* PmsgHttpServer.swift in Sources */,
+				AD3ED5E01EA3F32400FB7DDA /* PmsgServerRoomList.swift in Sources */,
+				AD3ED5DF1EA3F32100FB7DDA /* PmsgGotoRoom.swift in Sources */,
+				AD23F9CC1EC08B8100B767A1 /* PmsgAssetQuery.swift in Sources */,
+				AD046F6C1ECCFFCD00B0B343 /* Pmessage.swift in Sources */,
+				ADA4134C1E8B361B00CDB648 /* Puser.swift in Sources */,
+				AD53A0E21EC3E2ED002F3575 /* NSAttributedStringExtensions.swift in Sources */,
+				AD0B700D1E88D1FC00600930 /* MainViewController.swift in Sources */,
+				AD23F9C01EC08B1100B767A1 /* PmsgTerminate.swift in Sources */,
+				AD0B700B1E88D1FC00600930 /* AppDelegate.swift in Sources */,
+				AD23F9BD1EC08AF600B767A1 /* PmsgServerInfo.swift in Sources */,
+				AD67B6871ECBB56B00C7C2E4 /* Pprop.swift in Sources */,
+				AD1CC68A1EAE772A002C64AF /* PmsgUserNew.swift in Sources */,
+				AD5088AF1E88DBE3006E3161 /* Alcazar.xcdatamodeld in Sources */,
+				AD6004501E8E242C004CC6EA /* ChatTextField.swift in Sources */,
+				AD23F9D81EC08BE600B767A1 /* PmsgUserDescription.swift in Sources */,
+				AD22BDA61EBDC25E00DD8ABD /* PmsgUserRename.swift in Sources */,
+				AD23F9E41EC08CCE00B767A1 /* PmsgPropNew.swift in Sources */,
+				AD23F9E11EC08CBA00B767A1 /* PmsgPropMove.swift in Sources */,
+				AD23F9D21EC08BBD00B767A1 /* PmsgUserColor.swift in Sources */,
+				AD069CB61EB2491A00E8D39D /* AppImage.swift in Sources */,
+				AD1CC68D1EAE7751002C64AF /* PmsgUserExitRoom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B70171E88D1FC00600930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B70201E88D1FC00600930 /* Alcazar_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0B70221E88D1FD00600930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0B702B1E88D1FD00600930 /* Alcazar_macOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD0B6FE81E88CA2C00600930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0B6FCE1E88CA2C00600930 /* Alcazar iOS */;
+			targetProxy = AD0B6FE71E88CA2C00600930 /* PBXContainerItemProxy */;
+		};
+		AD0B6FF31E88CA2C00600930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0B6FCE1E88CA2C00600930 /* Alcazar iOS */;
+			targetProxy = AD0B6FF21E88CA2C00600930 /* PBXContainerItemProxy */;
+		};
+		AD0B701D1E88D1FC00600930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0B70071E88D1FC00600930 /* Alcazar macOS */;
+			targetProxy = AD0B701C1E88D1FC00600930 /* PBXContainerItemProxy */;
+		};
+		AD0B70281E88D1FD00600930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD0B70071E88D1FC00600930 /* Alcazar macOS */;
+			targetProxy = AD0B70271E88D1FD00600930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD0B6FD61E88CA2C00600930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0B6FD71E88CA2C00600930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0B6FDE1E88CA2C00600930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0B6FDF1E88CA2C00600930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD0B70131E88D1FC00600930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD0B70141E88D1FC00600930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD0B6FF81E88CA2D00600930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0B6FF91E88CA2D00600930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0B6FFB1E88CA2D00600930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Alcazar iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.orkey.Alcazar-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD0B6FFC1E88CA2D00600930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Alcazar iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.orkey.Alcazar-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AD0B6FFE1E88CA2D00600930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				INFOPLIST_FILE = AlcazarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.orkey.AlcazarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcazar.app/Alcazar";
+			};
+			name = Debug;
+		};
+		AD0B6FFF1E88CA2D00600930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				INFOPLIST_FILE = AlcazarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.orkey.AlcazarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcazar.app/Alcazar";
+			};
+			name = Release;
+		};
+		AD0B70011E88CA2D00600930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				INFOPLIST_FILE = AlcazarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.orkey.AlcazarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Alcazar;
+			};
+			name = Debug;
+		};
+		AD0B70021E88CA2D00600930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				INFOPLIST_FILE = AlcazarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.orkey.AlcazarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Alcazar;
+			};
+			name = Release;
+		};
+		AD0B702E1E88D1FD00600930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Alcazar macOS/Alcazar.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Alcazar macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.orkey.Alcazar-macOS";
+				PRODUCT_MODULE_NAME = Alcazar;
+				PRODUCT_NAME = Alcazar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD0B702F1E88D1FD00600930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Alcazar macOS/Alcazar.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Alcazar macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.orkey.Alcazar-macOS";
+				PRODUCT_MODULE_NAME = Alcazar;
+				PRODUCT_NAME = Alcazar;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AD0B70311E88D1FD00600930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				INFOPLIST_FILE = "Alcazar macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.orkey.Alcazar-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcazar macOS.app/Contents/MacOS/Alcazar macOS";
+			};
+			name = Debug;
+		};
+		AD0B70321E88D1FD00600930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				INFOPLIST_FILE = "Alcazar macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.orkey.Alcazar-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcazar macOS.app/Contents/MacOS/Alcazar macOS";
+			};
+			name = Release;
+		};
+		AD0B70341E88D1FD00600930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				INFOPLIST_FILE = "Alcazar macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.orkey.Alcazar-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alcazar macOS";
+			};
+			name = Debug;
+		};
+		AD0B70351E88D1FD00600930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59GAM9U66R;
+				INFOPLIST_FILE = "Alcazar macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.orkey.Alcazar-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Alcazar macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD0B6FCA1E88CA2C00600930 /* Build configuration list for PBXProject "Alcazar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B6FF81E88CA2D00600930 /* Debug */,
+				AD0B6FF91E88CA2D00600930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0B6FFA1E88CA2D00600930 /* Build configuration list for PBXNativeTarget "Alcazar iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B6FFB1E88CA2D00600930 /* Debug */,
+				AD0B6FFC1E88CA2D00600930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0B6FFD1E88CA2D00600930 /* Build configuration list for PBXNativeTarget "Alcazar iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B6FFE1E88CA2D00600930 /* Debug */,
+				AD0B6FFF1E88CA2D00600930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0B70001E88CA2D00600930 /* Build configuration list for PBXNativeTarget "Alcazar iOS UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B70011E88CA2D00600930 /* Debug */,
+				AD0B70021E88CA2D00600930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0B702D1E88D1FD00600930 /* Build configuration list for PBXNativeTarget "Alcazar macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B702E1E88D1FD00600930 /* Debug */,
+				AD0B702F1E88D1FD00600930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0B70301E88D1FD00600930 /* Build configuration list for PBXNativeTarget "Alcazar macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B70311E88D1FD00600930 /* Debug */,
+				AD0B70321E88D1FD00600930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0B70331E88D1FD00600930 /* Build configuration list for PBXNativeTarget "Alcazar macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0B70341E88D1FD00600930 /* Debug */,
+				AD0B70351E88D1FD00600930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD5088AC1E88DBE3006E3161 /* Alcazar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD5088AD1E88DBE3006E3161 /* Alcazar.xcdatamodel */,
+			);
+			currentVersion = AD5088AD1E88DBE3006E3161 /* Alcazar.xcdatamodel */;
+			path = Alcazar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD0B6FC71E88CA2C00600930 /* Project object */;
+}
